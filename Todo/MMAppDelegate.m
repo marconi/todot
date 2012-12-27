@@ -7,8 +7,11 @@
 //
 
 #import "MMAppDelegate.h"
+#import "MMDataController.h"
 
 @implementation MMAppDelegate
+
+@synthesize mainWindow = _mainWindow;
 
 - (void)dealloc
 {
@@ -17,7 +20,19 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    // initialize database
+//    MMDataController *dataController = [[MMDataController alloc] init];
+//
+//    [dataController initializeDatabase];
+//    
+//    [dataController release];
+//    dataController = nil;
+
+    
+    // show main window
+    _mainWindow = [[MMMainWindowController alloc] initWithWindowNibName:@"MainWindow"];
+    [[_mainWindow window] makeFirstResponder:nil];
+    [_mainWindow showWindow:self];
 }
 
 @end

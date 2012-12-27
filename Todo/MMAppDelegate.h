@@ -7,9 +7,13 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "MMMainWindowController.h"
 
 @interface MMAppDelegate : NSObject <NSApplicationDelegate>
+{
+    MMMainWindowController *_mainWindow;
+}
 
-@property (assign) IBOutlet NSWindow *window;
+@property (nonatomic, readonly) MMMainWindowController *mainWindow;
 
 @end

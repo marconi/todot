@@ -12,7 +12,15 @@
 		B12FD2981689E033005BA453 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B12FD2971689E033005BA453 /* main.m */; };
 		B12FD29C1689E033005BA453 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B12FD29A1689E033005BA453 /* Credits.rtf */; };
 		B12FD29F1689E033005BA453 /* MMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B12FD29E1689E033005BA453 /* MMAppDelegate.m */; };
-		B12FD2A21689E033005BA453 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B12FD2A01689E033005BA453 /* MainMenu.xib */; };
+		B12FD2A91689E066005BA453 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B12FD2A81689E066005BA453 /* libsqlite3.dylib */; };
+		B18B045D168AB2AE00912C58 /* MMTodo.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B045C168AB2AE00912C58 /* MMTodo.m */; };
+		B18CDB5A168C2D11008ACF40 /* ellipsis.png in Resources */ = {isa = PBXBuildFile; fileRef = B18CDB59168C2D11008ACF40 /* ellipsis.png */; };
+		B1929BE3168C166E008498B0 /* MMTodoInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B1929BE2168C166E008498B0 /* MMTodoInfo.m */; };
+		B1A2BD65168A1C1700A7F83D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1A2BD64168A1C1700A7F83D /* MainWindow.xib */; };
+		B1A2BD70168A211600A7F83D /* MMMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A2BD6F168A211600A7F83D /* MMMainWindowController.m */; };
+		B1A2BD76168A234E00A7F83D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1A2BD75168A234E00A7F83D /* MainMenu.xib */; };
+		B1A2BD79168A26DD00A7F83D /* MMAddTodo.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A2BD78168A26DD00A7F83D /* MMAddTodo.m */; };
+		B1CE8276168A0D5600F2CF1B /* MMDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CE8275168A0D5600F2CF1B /* MMDataController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +36,20 @@
 		B12FD29B1689E033005BA453 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		B12FD29D1689E033005BA453 /* MMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMAppDelegate.h; sourceTree = "<group>"; };
 		B12FD29E1689E033005BA453 /* MMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMAppDelegate.m; sourceTree = "<group>"; };
-		B12FD2A11689E033005BA453 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B12FD2A81689E066005BA453 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		B18B045B168AB2AE00912C58 /* MMTodo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMTodo.h; sourceTree = "<group>"; };
+		B18B045C168AB2AE00912C58 /* MMTodo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMTodo.m; sourceTree = "<group>"; };
+		B18CDB59168C2D11008ACF40 /* ellipsis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ellipsis.png; sourceTree = "<group>"; };
+		B1929BE1168C166E008498B0 /* MMTodoInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMTodoInfo.h; sourceTree = "<group>"; };
+		B1929BE2168C166E008498B0 /* MMTodoInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMTodoInfo.m; sourceTree = "<group>"; };
+		B1A2BD64168A1C1700A7F83D /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		B1A2BD6E168A211600A7F83D /* MMMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMainWindowController.h; sourceTree = "<group>"; };
+		B1A2BD6F168A211600A7F83D /* MMMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMainWindowController.m; sourceTree = "<group>"; };
+		B1A2BD75168A234E00A7F83D /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		B1A2BD77168A26DD00A7F83D /* MMAddTodo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMAddTodo.h; sourceTree = "<group>"; };
+		B1A2BD78168A26DD00A7F83D /* MMAddTodo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMAddTodo.m; sourceTree = "<group>"; };
+		B1CE8274168A0D5600F2CF1B /* MMDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDataController.h; sourceTree = "<group>"; };
+		B1CE8275168A0D5600F2CF1B /* MMDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDataController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B12FD2A91689E066005BA453 /* libsqlite3.dylib in Frameworks */,
 				B12FD28C1689E033005BA453 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -82,9 +104,14 @@
 		B12FD2911689E033005BA453 /* Todo */ = {
 			isa = PBXGroup;
 			children = (
+				B18CDB4D168C29A2008ACF40 /* Images */,
+				B1A2BD7A168A26E300A7F83D /* Views */,
+				B1A2BD63168A1AED00A7F83D /* Nibs */,
+				B12FD2AF1689E150005BA453 /* Controllers */,
+				B12FD2AE1689E147005BA453 /* Models */,
+				B12FD2AA1689E0A8005BA453 /* Libs */,
 				B12FD29D1689E033005BA453 /* MMAppDelegate.h */,
 				B12FD29E1689E033005BA453 /* MMAppDelegate.m */,
-				B12FD2A01689E033005BA453 /* MainMenu.xib */,
 				B12FD2921689E033005BA453 /* Supporting Files */,
 			);
 			path = Todo;
@@ -100,6 +127,63 @@
 				B12FD29A1689E033005BA453 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B12FD2AA1689E0A8005BA453 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				B12FD2A81689E066005BA453 /* libsqlite3.dylib */,
+			);
+			name = Libs;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		B12FD2AE1689E147005BA453 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B18B045B168AB2AE00912C58 /* MMTodo.h */,
+				B18B045C168AB2AE00912C58 /* MMTodo.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B12FD2AF1689E150005BA453 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B1CE8274168A0D5600F2CF1B /* MMDataController.h */,
+				B1CE8275168A0D5600F2CF1B /* MMDataController.m */,
+				B1A2BD6E168A211600A7F83D /* MMMainWindowController.h */,
+				B1A2BD6F168A211600A7F83D /* MMMainWindowController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B18CDB4D168C29A2008ACF40 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B18CDB59168C2D11008ACF40 /* ellipsis.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		B1A2BD63168A1AED00A7F83D /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				B1A2BD64168A1C1700A7F83D /* MainWindow.xib */,
+				B1A2BD75168A234E00A7F83D /* MainMenu.xib */,
+			);
+			name = Nibs;
+			sourceTree = "<group>";
+		};
+		B1A2BD7A168A26E300A7F83D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B1A2BD77168A26DD00A7F83D /* MMAddTodo.h */,
+				B1A2BD78168A26DD00A7F83D /* MMAddTodo.m */,
+				B1929BE1168C166E008498B0 /* MMTodoInfo.h */,
+				B1929BE2168C166E008498B0 /* MMTodoInfo.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,7 +240,9 @@
 			files = (
 				B12FD2961689E033005BA453 /* InfoPlist.strings in Resources */,
 				B12FD29C1689E033005BA453 /* Credits.rtf in Resources */,
-				B12FD2A21689E033005BA453 /* MainMenu.xib in Resources */,
+				B1A2BD65168A1C1700A7F83D /* MainWindow.xib in Resources */,
+				B1A2BD76168A234E00A7F83D /* MainMenu.xib in Resources */,
+				B18CDB5A168C2D11008ACF40 /* ellipsis.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +255,11 @@
 			files = (
 				B12FD2981689E033005BA453 /* main.m in Sources */,
 				B12FD29F1689E033005BA453 /* MMAppDelegate.m in Sources */,
+				B1CE8276168A0D5600F2CF1B /* MMDataController.m in Sources */,
+				B1A2BD70168A211600A7F83D /* MMMainWindowController.m in Sources */,
+				B1A2BD79168A26DD00A7F83D /* MMAddTodo.m in Sources */,
+				B18B045D168AB2AE00912C58 /* MMTodo.m in Sources */,
+				B1929BE3168C166E008498B0 /* MMTodoInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,14 +280,6 @@
 				B12FD29B1689E033005BA453 /* en */,
 			);
 			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		B12FD2A01689E033005BA453 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B12FD2A11689E033005BA453 /* en */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -296,6 +379,7 @@
 				B12FD2A71689E033005BA453 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
